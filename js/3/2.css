@@ -1,0 +1,33 @@
+body{
+    background-color: chartreuse;
+}
+.parent{
+    border: 2px solid black;
+    width: 800px;
+    height: 300px;
+}
+.target{
+    border: 2px solid black;
+    width: 500px;
+    height: 200px;
+    margin-left: 20px;
+    margin-top: 40px;
+}
+.child{
+    border: 2px solid black;
+    width: 300px;
+    height: 100px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+p{
+    margin-left: 10px;
+    position: relative;
+}
+button{
+    margin-top: 10px;
+    margin-left: 5px;
+}
+
+
+

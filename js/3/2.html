@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="2.css">
+    <meta charset="UTF-8">
+    <title>Title</title>
+</head>
+<body>
+<div class="parent">
+    <p>parent</p>
+    <div class="target" id="target">
+        <p id="one"></p>
+        <p id="two" style="display: inline-flex; margin: 0"></p>
+        <p style="display: inline-flex; margin: 0">target</p>
+        <div class="child"><p>child</p></div>
+    </div>
+</div>
+<button onclick="parent()">copy parent</button>
+<button onclick="child()">copy child</button>
+<script src="2.js"></script>
+</body>
+</html>
